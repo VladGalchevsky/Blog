@@ -1,0 +1,931 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$Fw5AU5jOEIjdN4IMHwWx09$FZeKHGLgE9OT1YiBjhT3kx1cqqrj2AXhPijKNrofKP4=",
+        "last_login": "2022-12-13T21:31:25.527Z",
+        "is_superuser": true,
+        "username": "vlad",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-13T21:29:56.938Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wbwn70kca3995e9yhahq9o6h3dxlckfd",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEzvHHp3m8gwIBUDU1KuzL-uzbpQrf3nHNfLMRtbWEbZQkTsTNDdvrdUsyP0ndA99hvM89zX5cp8V3hBx38OlN5Xg7376DF0b51VqCELRWsJiXJ5CK9NdGjc1IYrOCcAJCQNFDVyjlEr9CjSDZCLoa9P7CfNk4:1p5Cs1:Kb9ZmjgohIzakz4xC0f87R0FbiIg08QXvQHZw9LxCgI",
+        "expire_date": "2022-12-27T21:31:25.716Z"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 1,
+    "fields": {
+        "title": "Lifestyle",
+        "slug": "lifestyle"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 2,
+    "fields": {
+        "title": "Food",
+        "slug": "food"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 3,
+    "fields": {
+        "title": "Nature",
+        "slug": "nature"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 4,
+    "fields": {
+        "title": "Photography",
+        "slug": "photography"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 1,
+    "fields": {
+        "title": "Adventure",
+        "slug": "adventure"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 2,
+    "fields": {
+        "title": "Animals",
+        "slug": "animals"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 3,
+    "fields": {
+        "title": "Asia",
+        "slug": "asia"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 4,
+    "fields": {
+        "title": "Beauty",
+        "slug": "beauty"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 5,
+    "fields": {
+        "title": "Canada",
+        "slug": "canada"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 6,
+    "fields": {
+        "title": "Celebration",
+        "slug": "celebration"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 7,
+    "fields": {
+        "title": "City",
+        "slug": "city"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 8,
+    "fields": {
+        "title": "Coffee",
+        "slug": "coffee"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 9,
+    "fields": {
+        "title": "Europe",
+        "slug": "europe"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "Post Title Goes Here.",
+        "slug": "post-title-goes-here",
+        "author": "Kabbo Liate",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>",
+        "created_at": "2022-12-14T11:23:03.307Z",
+        "photo": "photos/2022/12/15/post-image1.jpg",
+        "views": 14,
+        "category": 2,
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "Post Title Goes Here2",
+        "slug": "post-title-goes-here2",
+        "author": "Kabbo Liate",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>",
+        "created_at": "2022-12-14T11:24:33.188Z",
+        "photo": "photos/2022/12/15/post-image2_LY0Aoua.jpg",
+        "views": 0,
+        "category": 1,
+        "tags": [
+            2
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "Post Title Goes Here3",
+        "slug": "post-title-goes-here3",
+        "author": "Kabbo Liate",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>",
+        "created_at": "2022-12-14T11:25:29.162Z",
+        "photo": "photos/2022/12/15/post-image3.jpg",
+        "views": 0,
+        "category": 3,
+        "tags": [
+            5
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+        "title": "Post Title Goes Here4",
+        "slug": "post-title-goes-here4",
+        "author": "Kabbo Liate",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>",
+        "created_at": "2022-12-14T11:26:12.258Z",
+        "photo": "photos/2022/12/15/post-image4.jpg",
+        "views": 3,
+        "category": 4,
+        "tags": [
+            8
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+        "title": "Post Title Goes Here5",
+        "slug": "post-title-goes-here5",
+        "author": "Kabbo Liate",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>",
+        "created_at": "2022-12-14T11:27:03.777Z",
+        "photo": "photos/2022/12/15/post-image5.jpg",
+        "views": 0,
+        "category": 3,
+        "tags": [
+            5
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+        "title": "Post Title Goes Here6",
+        "slug": "post-title-goes-here6",
+        "author": "Kabbo Liate",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>",
+        "created_at": "2022-12-14T11:27:54.001Z",
+        "photo": "photos/2022/12/15/post-image6.jpg",
+        "views": 0,
+        "category": 1,
+        "tags": [
+            4
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+        "title": "Post Title Goes Here7",
+        "slug": "post-title-goes-here7",
+        "author": "Kabbo Liate",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniamv</p>",
+        "created_at": "2022-12-14T11:28:28.791Z",
+        "photo": "",
+        "views": 1,
+        "category": 4,
+        "tags": [
+            7
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 8,
+    "fields": {
+        "title": "Post Title Goes Here8",
+        "slug": "post-title-goes-here8",
+        "author": "Kabbo Liate",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>",
+        "created_at": "2022-12-14T11:29:07.812Z",
+        "photo": "photos/2022/12/15/post-image8.jpg",
+        "views": 5,
+        "category": 1,
+        "tags": [
+            6
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 9,
+    "fields": {
+        "title": "Post Title Goes Here9",
+        "slug": "post-title-goes-here9",
+        "author": "Kabbo Liate",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>",
+        "created_at": "2022-12-14T11:29:34.658Z",
+        "photo": "photos/2022/12/15/post-image7.jpg",
+        "views": 0,
+        "category": 3,
+        "tags": [
+            6
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 10,
+    "fields": {
+        "title": "Post Title Goes Here10",
+        "slug": "post-title-goes-here10",
+        "author": "Kabbo Liate",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>",
+        "created_at": "2022-12-14T11:30:08.316Z",
+        "photo": "photos/2022/12/15/post-image9.jpg",
+        "views": 9,
+        "category": 3,
+        "tags": [
+            8
+        ]
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-12-14T09:51:48.512Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Lifestyle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-12-14T09:52:05.139Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "Food",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-12-14T09:52:15.718Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "Nature",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-12-14T09:52:35.198Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "Photography",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-12-14T09:53:30.720Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "tag"
+        ],
+        "object_id": "1",
+        "object_repr": "Adventure",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-12-14T09:53:43.198Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "tag"
+        ],
+        "object_id": "2",
+        "object_repr": "Animals",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-12-14T09:53:47.461Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "tag"
+        ],
+        "object_id": "3",
+        "object_repr": "Asia",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-12-14T09:54:04.309Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "tag"
+        ],
+        "object_id": "4",
+        "object_repr": "Beauty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-12-14T09:54:08.941Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "tag"
+        ],
+        "object_id": "5",
+        "object_repr": "Canada",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-12-14T09:54:25.619Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "tag"
+        ],
+        "object_id": "6",
+        "object_repr": "Celebration",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-12-14T09:54:29.608Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "tag"
+        ],
+        "object_id": "7",
+        "object_repr": "City",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-12-14T09:54:46.954Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "tag"
+        ],
+        "object_id": "8",
+        "object_repr": "Coffee",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-12-14T09:54:52.116Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "tag"
+        ],
+        "object_id": "9",
+        "object_repr": "Europe",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-12-14T11:23:03.311Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "1",
+        "object_repr": "Post Title Goes Here.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-12-14T11:24:33.191Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "2",
+        "object_repr": "Post Title Goes Here2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-12-14T11:25:29.167Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "3",
+        "object_repr": "Post Title Goes Here3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-12-14T11:26:12.264Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "4",
+        "object_repr": "Post Title Goes Here4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-12-14T11:27:03.781Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "5",
+        "object_repr": "Post Title Goes Here5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-12-14T11:27:54.004Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "6",
+        "object_repr": "Post Title Goes Here6",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-12-14T11:28:28.795Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "7",
+        "object_repr": "Post Title Goes Here7",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-12-14T11:29:07.817Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "8",
+        "object_repr": "Post Title Goes Here8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-12-14T11:29:34.663Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "9",
+        "object_repr": "Post Title Goes Here9",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-12-14T11:30:08.321Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "10",
+        "object_repr": "Post Title Goes Here10",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-12-15T10:57:44.033Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "7",
+        "object_repr": "Post Title Goes Here7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-12-15T10:58:37.346Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "7",
+        "object_repr": "Post Title Goes Here7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"content\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-12-15T10:59:10.570Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "1",
+        "object_repr": "Post Title Goes Here.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-12-15T10:59:29.996Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "2",
+        "object_repr": "Post Title Goes Here2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-12-15T10:59:45.558Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "3",
+        "object_repr": "Post Title Goes Here3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-12-15T11:00:04.584Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "4",
+        "object_repr": "Post Title Goes Here4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-12-15T11:00:30.761Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "5",
+        "object_repr": "Post Title Goes Here5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-12-15T11:00:47.514Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "6",
+        "object_repr": "Post Title Goes Here6",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-12-15T11:01:09.463Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "8",
+        "object_repr": "Post Title Goes Here8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2022-12-15T11:01:39.074Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "9",
+        "object_repr": "Post Title Goes Here9",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2022-12-15T11:01:59.816Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "10",
+        "object_repr": "Post Title Goes Here10",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2022-12-15T11:02:23.735Z",
+        "user": [
+            "vlad"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "7",
+        "object_repr": "Post Title Goes Here7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+}
+]
